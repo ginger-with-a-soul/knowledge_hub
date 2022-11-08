@@ -1,0 +1,21 @@
+## Easy
+-  Two pointers:
+	- [x] [[Longest common prefix]] ✅ 2022-11-06
+	- [ ] Merge two sorted lists
+	- [x] [[Remove duplicates from sorted array in place]] ✅ 2022-11-07
+	- [x] [[Plus one]] ✅ 2022-11-07
+	- [ ] Sqrt(x)
+	- [ ] Merge sorted array
+- Trees:
+	- [ ] [[Binary tree inorder traversal]]
+- Dynamic programming:
+	 - [x] [[Climbing stairs]] ✅ 2022-11-08
+-  Stack:
+	- [x] [[Valid parenthesis]] ✅ 2022-11-06
+- Hash table:
+	- [x] [[Two Sum]] ✅ 2022-11-05
+	- [x] [[Roman to integer]] ✅ 2022-11-05
+	- [x] [[Longest common prefix]] ✅ 2022-11-06
+
+- ### Medium
+- ### Hard
