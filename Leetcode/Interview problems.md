@@ -1,13 +1,18 @@
-### Usefull resources:
+
+
+### Useful resources:
 - The big O notation [cheat sheat](https://www.piratekingdom.com/leetcode/cheat-sheet)
+
+
 ## Easy
--  Two pointers:
+- Two pointers:
 	- [x] [[Longest common prefix]] ✅ 2022-11-06
 	- [x] [[Merge two sorted lists]] ✅ 2022-11-14
 	- [x] [[Remove duplicates from sorted array in place]] ✅ 2022-11-07
 	- [x] [[Plus one]] ✅ 2022-11-07
-	- [ ] Sqrt(x)
-	- [ ] [[Merge sorted array]]
+	- [x] [[Merge sorted array]] ✅ 2022-11-15
+- Binary search:
+	- [x] [[Sqrt(X)]] ✅ 2022-11-15
 - Trees:
 	- [x] [[Binary tree inorder traversal]] ✅ 2022-11-14
 - Dynamic programming:
@@ -19,5 +24,7 @@
 	- [x] [[Roman to integer]] ✅ 2022-11-05
 	- [x] [[Longest common prefix]] ✅ 2022-11-06
 
-- ### Medium
-- ### Hard
+
+## Medium
+- Mathematical: 
+	- [x] [[Add two numbers]] ✅ 2022-11-15

@@ -8,79 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c7f9600bccb8b869",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05276d006c82da48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary tree inorder traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78f7a1f2889d2df5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary tree inorder traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "791d71f8068523b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Merge sorted array.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2bdc10a5636bdd93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Longest common prefix.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "fbc2b6b1e0300221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Two Sum.md",
+                "file": "Add two numbers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -146,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Merge sorted array.md",
+                "file": "Add two numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Merge sorted array.md",
+                "file": "Add two numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Merge sorted array.md"
+                "file": "Add two numbers.md"
               }
             }
           }
@@ -197,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "791d71f8068523b2",
+  "active": "fbc2b6b1e0300221",
   "lastOpenFiles": [
     "Interview problems.md",
-    "Merge sorted array.md",
-    "Binary tree inorder traversal.md",
-    "Merge two sorted lists.md",
-    "Roman to Integer.md",
-    "Climbing stairs.md",
-    "Excalidraw/Drawing 2022-11-08 20.23.33.excalidraw.md",
+    "Add two numbers.md",
+    "Sqrt(X).md",
+    "Two Sum.md",
+    "Permutations.md",
     "Plus one.md",
-    "Remove duplicates from sorted array in place.md",
-    "Valid parenthesis.md"
+    "Merge sorted array.md",
+    "Longest common prefix.md",
+    "Climbing stairs.md",
+    "Binary tree inorder traversal.md"
   ]
 }
