@@ -11,14 +11,28 @@
       "query": "line:(Medium)",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14801413
       }
     },
     {
       "query": "Easy",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 3728699
+      }
+    },
+    {
+      "query": "Hard",
+      "color": {
+        "a": 1,
+        "rgb": 15992326
+      }
+    },
+    {
+      "query": "Binary search",
+      "color": {
+        "a": 1,
+        "rgb": 5405920
       }
     }
   ],
@@ -32,6 +46,6 @@
   "repelStrength": 9.27083333333333,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6419048481491694,
+  "scale": 0.051938251919569536,
   "close": false
 }

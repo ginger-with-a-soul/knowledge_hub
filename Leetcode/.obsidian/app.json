@@ -6,6 +6,14 @@
     "memoization",
     "len",
     "Binary",
-    "search"
-  ]
+    "search",
+    "Leet",
+    "cheat-sheat",
+    "Recursion",
+    "subproblem",
+    "Manacher",
+    "len_X",
+    "len_Y"
+  ],
+  "promptDelete": false
 }
