@@ -1,0 +1,21 @@
+
+* If variable has known memory requirements during compile time - it will be placed on stack.
+* When a variable holding the memory gets out of score - that memory is automatically freed because compiler implicitly calls `drop` function. This reminds of [RAII]([c++ - What is meant by Resource Acquisition is Initialization (RAII)? - Stack Overflow](https://stackoverflow.com/questions/2321511/what-is-meant-by-resource-acquisition-is-initialization-raii)) idiom in C++.
+```rust
+let s1: String = String::from("hello");
+let s2: String = s1;
+```
+* In the above code, `s1` is being created on the heap. The `s2` variable gets a pointer to what the `s1` is pointing. If we free any of the two, the second one's pointer will get invalidated because the memory has already been freed. Rust deals with this by **invalidating** the first variable. This is done by **moving** the pointer from s1 to s2. This prevents us from doing the double free.
+* In Rust, everything gets copied as a shallow copy unless explicitly done otherwise by us.
+* When passing a variable as an argument, the ownership gets transferred as well if the variable argument is on the heap. Because of that, using the variable in the original scope after the function returns will results in a compile error. If the argument is on stack, compiler implicitly calls `Copy` trait and makes a copy of the variable thus using the original one after the function call is allowed.
+* Ownership transfer eliminates a lot of the worries when dealing with dynamic memory but it does create a problem if we want to use a variable we passed as an argument after the function we've passed the argument to returns. This could be alleviated by returning the argument from the function back and catching it in the scope where the function was called. However, this can be quite tedious if the number of arguments is high and if the function needs to return something of it's own back. Because of that, we can send our dynamic argument via ***reference*** and doing so, the ownership is not transferred. This is what we call **BORROWING**.  **Whenever you DO NOT WANT to own an object explicitly, use references!**
+* By default, you cannot change a variable for which you have a reference - when you borrow something, you should not alter it cause it's not your. This too can be alleviated by making a variable you're passing to a function mutable AND by explicitly stating that the parameter type is `SomeType mut &variable`. 
+* You can have AT MOST 1 mutable reference in the same scope - this bring a bit more order to mutability and is also there to prevent data race that can occur when having multiple mutable reference of the same object.
+![[Pasted image 20240324210759.png]]
+* You can have multiple non-mutable references of the same object in the same scope (multiple users reading a thing that cannot change is fine!), but you cannot have a mutable and non-mutable reference of the same object in the same scope (one user could change a thing that the other one is reading and it could lead to the same problem of data racing!).
+![[Pasted image 20240324210821.png]]
+* Scope of a reference starts from the point where it's introduced and lasts until the point of the last usage of it (does not have to be a scope annotated by curly brackets) - after that point you can create a mutable reference to the same object and it's fine.
+*![[Pasted image 20240324211156.png]]
+* [[An encyclopedia of Computer Science references#Dangling pointer problem| A dangling pointer problem]] could be a hypothetical issue: you create an object in heap, you create a reference to it, the object gets `drop`ped but a reference to it remains. However, in Rust the compiler guarantees that references will never be dangling references: if you have a reference to some data, the compiler will ensure that the data will not go out of scope before the reference to the data does. The following results in a compile time error:
+*![[Pasted image 20240324214528.png]]
+  
