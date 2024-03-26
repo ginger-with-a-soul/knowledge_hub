@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ea8a06533db3a93",
+            "id": "f08b1f81cde1dc71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Memory management.md",
+                "file": "05 - Structs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Memory management.md",
+                "file": "05 - Structs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Memory management.md",
+                "file": "05 - Structs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Memory management.md"
+                "file": "05 - Structs.md"
               }
             }
           }
@@ -146,20 +146,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ea8a06533db3a93",
+  "active": "f08b1f81cde1dc71",
   "lastOpenFiles": [
+    "Images/Adding a debug attribute to a struct.png",
+    "05 - Structs.md",
+    "Images/A tuple struct.png",
+    "Struct update syntax.md",
+    "An encyclopedia of Computer Science references.md",
+    "Getting started with Rust.md",
+    "Images/Struct update syntax.png",
+    "Images/Shorthand struct creation.png",
+    "04 - Memory management.md",
+    "[A.md",
     "Images/Pasted image 20240324231753.png",
     "Images/Pasted image 20240324224214.png",
     "Images/Pasted image 20240324214528.png",
-    "Memory management.md",
-    "An encyclopedia of Computer Science references.md",
     "Syntax nuances.md",
     "Images/Pasted image 20240324214316.png",
     "dangling pointer problem.md",
     "Images/Pasted image 20240324211156.png",
     "Images/Pasted image 20240324210821.png",
     "Images",
-    "Images/Pasted image 20240324210759.png",
     "Welcome.md"
   ]
 }
