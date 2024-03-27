@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 - Enums and match.md",
-                "mode": "source",
+                "file": "An object-oriented paradigm - revision notes.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 - Enums and match.md",
+                "file": "An object-oriented paradigm - revision notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 - Enums and match.md",
+                "file": "An object-oriented paradigm - revision notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 - Enums and match.md"
+                "file": "An object-oriented paradigm - revision notes.md"
               }
             }
           }
@@ -161,22 +161,22 @@
   },
   "active": "85edf8ae25b9bde0",
   "lastOpenFiles": [
-    "Images/Match with placeholder and unit value.png",
+    "An encyclopedia of Computer Science references.md",
+    "04 - Memory management.md",
+    "05 - Structs.md",
     "06 - Enums and match.md",
+    "01 - Getting started with Rust.md",
+    "Images/Match with placeholder and unit value.png",
     "Syntax nuances.md",
     "Untitled.md",
-    "01 - Getting started with Rust.md",
     "An object-oriented paradigm - revision notes.md",
-    "An encyclopedia of Computer Science references.md",
     "Images/Enum method.png",
-    "05 - Structs.md",
     "Images/Enum with a struct type.png",
     "Images/Adding a debug attribute to a struct.png",
     "Images/A tuple struct.png",
     "Struct update syntax.md",
     "Images/Struct update syntax.png",
     "Images/Shorthand struct creation.png",
-    "04 - Memory management.md",
     "[A.md",
     "Images/Pasted image 20240324231753.png",
     "Images/Pasted image 20240324224214.png",
